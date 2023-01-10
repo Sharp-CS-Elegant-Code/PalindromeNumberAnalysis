@@ -1,7 +1,7 @@
-Solution,Memory (MB)
-VectorSolution,9.5,5
-BuildHalvesSolution,6,2
+Solution,Memory (MB),Rank
+FastBuildHalvesSolution,5.9,1
 StringSolution,5.9,1
+BuildHalvesSolution,6,2
 CharArraySolution,6.4,3
 IntArraySolution,6.9,4
-FastBuildHalvesSolution,5.9,1
+VectorSolution,9.5,5
