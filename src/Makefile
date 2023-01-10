@@ -2,33 +2,39 @@ CXX = g++
 CXXFLAGS = -g3 -Wall -Wextra
 LDFLAGS = -g3
 
-BuildHalvesSolution.out: BuildHalvesSolution.o
+Experiments.out: Experiments.o Solutions.o
 	${CXX} ${LDFLAGS} -o $@ $^
 
-BuildHalvesSolution.o: BuildHalvesSolution.cpp 
+Experiments.o: Experiments.cpp
 
-CharArraySolution.out: CharArraySolution.o
+Solutions.o: Solutions.cpp 
+
+BuildHalvesSolution.out: BuildHalvesSolution.o Solutions.o
 	${CXX} ${LDFLAGS} -o $@ $^
 
-CharArraySolution.o: CharArraySolution.cpp 
+BuildHalvesSolution.o: BuildHalvesSolution.cpp
 
-FastBuildHalvesSolution.out: FastBuildHalvesSolution.o
+CharArraySolution.out: CharArraySolution.o Solutions.o
 	${CXX} ${LDFLAGS} -o $@ $^
 
-FastBuildHalvesSolution.o: FastBuildHalvesSolution.cpp 
+CharArraySolution.o: CharArraySolution.cpp
 
-IntArraySolution.out: IntArraySolution.o
+FastBuildHalvesSolution.out: FastBuildHalvesSolution.o Solutions.o
 	${CXX} ${LDFLAGS} -o $@ $^
 
-IntArraySolution.o: IntArraySolution.o 
+FastBuildHalvesSolution.o: FastBuildHalvesSolution.cpp
 
-StringSolution.out: StringSolution.o
+IntArraySolution.out: IntArraySolution.o Solutions.o
 	${CXX} ${LDFLAGS} -o $@ $^
 
-StringSolution.o: StringSolution.cpp 
+IntArraySolution.o: IntArraySolution.cpp
 
-VectorSolution.out: VectorSolution.o
+StringSolution.out: StringSolution.o Solutions.o
 	${CXX} ${LDFLAGS} -o $@ $^
 
-VectorSolution.o: VectorSolution.cpp 
+StringSolution.o: StringSolution.cpp
 
+VectorSolution.out: VectorSolution.o Solutions.o
+	${CXX} ${LDFLAGS} -o $@ $^
+
+VectorSolution.o: VectorSolution.cpp
