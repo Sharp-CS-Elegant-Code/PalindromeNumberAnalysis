@@ -31,7 +31,7 @@ Unlike my memory experiments, my runtime experiments yielded a quite different r
 
 ## Prerequisites (Linux)
 
-* Install `python3`, `gcc`, and `make`.
+* Install `gcc`, and `make`.
 * Ensure `run_experiments.sh` has execute permission.
 
 ## Installation
