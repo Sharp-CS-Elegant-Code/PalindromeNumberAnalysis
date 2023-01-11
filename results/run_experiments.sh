@@ -9,6 +9,6 @@ for s in BuildHalvesSolution CharArraySolution FastBuildHalvesSolution IntArrayS
 done
 rm Experiments.out 2> /dev/null
 make Experiments.out
-# ./Experiments.out
+./Experiments.out
 cd ../results
 
