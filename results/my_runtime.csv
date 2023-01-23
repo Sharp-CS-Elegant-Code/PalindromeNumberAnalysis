@@ -1,7 +1,8 @@
 Solution,Runtime (ms),Rank
-FastBuildHalvesSolution,84,1
-StringSolution,157,2
-BuildHalvesSolution,227,3
-CharArraySolution,241,4
-IntArraySolution,247,5
-VectorSolution,2092,6
+FastBuildHalvesSolution,120,1
+ArithmeticSolution,172,2
+StringSolution,184,3
+BuildHalvesSolution,267,4
+CharArraySolution,335,5
+IntArraySolution,339,6
+VectorSolution,2562,7

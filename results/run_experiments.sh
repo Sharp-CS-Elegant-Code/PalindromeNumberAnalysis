@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ../src
-for s in BuildHalvesSolution CharArraySolution FastBuildHalvesSolution IntArraySolution StringSolution VectorSolution; do
+for s in BuildHalvesSolution CharArraySolution FastBuildHalvesSolution IntArraySolution StringSolution VectorSolution ArithmeticSolution; do
     rm ${s}.o 2> /dev/null
     make ${s}.o
     rm ${s}.out 2> /dev/null
