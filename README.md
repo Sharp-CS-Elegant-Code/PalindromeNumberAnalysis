@@ -21,7 +21,7 @@ The LeetCode memory report overall makes sense except that it ranks my solution 
 
 The LeetCode runtime report overall makes sense except that it ranks my improved build halves solution as 3rd slowest. This does not seem correct for two reasons. 
 
-* My worse build halves solution performs the best, so the improved version that makes less passes should be even better. 
+* My worse build halves solution performs the best, so the improved version that makes fewer passes should be even better. 
 * My experiment clearly places the improved build halves solution as the best.
 
 Unlike my memory experiments, my runtime experiments yielded a quite different ranking.

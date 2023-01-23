@@ -38,3 +38,8 @@ VectorSolution.out: VectorSolution.o Solutions.o
 	${CXX} ${LDFLAGS} -o $@ $^
 
 VectorSolution.o: VectorSolution.cpp
+
+ArithmeticSolution.out: ArithmeticSolution.o Solutions.o
+	${CXX} ${LDFLAGS} -o $@ $^
+
+ArithmeticSolution.o: ArithmeticSolution.cpp

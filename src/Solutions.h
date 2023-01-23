@@ -32,4 +32,7 @@ bool StringSolution(int x);
 // Same as StringSolution but builds a vector of integers instead of a string.
 bool VectorSolution(int x);
 
+// Arithmetic Solution
+bool ArithmeticSolution(int x);
+
 #endif

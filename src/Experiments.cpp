@@ -29,7 +29,7 @@ const int MAX_TRIALS_RUNTIME = 1000000;
 const int MAX_TRIALS_MEMORY = 1000;
 const std::string SOLUTION_NAMES[] = {
     "BuildHalvesSolution", "CharArraySolution", "FastBuildHalvesSolution",
-    "IntArraySolution",    "StringSolution",    "VectorSolution"};
+    "IntArraySolution",    "StringSolution",    "VectorSolution", "ArithmeticSolution"};
 const double KB_TO_MB_CONV = 1024.0;
 
 // Gets minimum of 2 values assuming operator< is defined - left as macro to
@@ -146,6 +146,14 @@ void getRuntimes(const std::list<int> &trials,
     }
     end = std::chrono::steady_clock::now();
     runtimes["VectorSolution"] = getRuntime(begin, end);
+
+
+    begin = std::chrono::steady_clock::now();
+    for (int trial : trials) {
+        ArithmeticSolution(trial);
+    }
+    end = std::chrono::steady_clock::now();
+    runtimes["ArithmeticSolution"] = getRuntime(begin, end);
 }
 
 double getMemory(const std::string &solution, int x) {
