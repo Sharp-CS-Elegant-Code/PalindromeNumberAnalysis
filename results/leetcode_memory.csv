@@ -2,6 +2,7 @@ Solution,Memory (MB),Rank
 FastBuildHalvesSolution,5.9,1
 StringSolution,5.9,1
 BuildHalvesSolution,6,2
-CharArraySolution,6.4,3
-IntArraySolution,6.9,4
-VectorSolution,9.5,5
+ArithmeticSolution,6.2,3
+CharArraySolution,6.4,4
+IntArraySolution,6.9,5
+VectorSolution,9.5,6
